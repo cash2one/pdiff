@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>diff_report</title>
+    <script src="http://code.jquery.com/jquery.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            if (!window.JSON) {
+                // include JSON for old browser without native JSON support
+                var script = document.createElement('script');
+                script.src = 'http://cdnjs.cloudflare.com/ajax/libs/json3/3.2.2/json3.min.js';
+                var head = document.getElementsByTagName("head")[0] || document.documentElement;
+                head.appendChild(script);
+            }
+        })();
+    </script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../src/jsondiffpatch.html.css" type="text/css" media="screen" />
+    <!-- START: required libs -->
+    <script type='text/javascript' src='../src/jsondiffpatch.js'>
+    </script>
+    <script type='text/javascript' src='../src/jsondiffpatch.html.js'>
+    </script>
+    <script type='text/javascript' src='../lib/diff_match_patch_uncompressed.js'>
+    </script>
+    <!-- END: required libs -->
+</head>
+<body>
+<h1>Diff Report</h1>
+<div class="jsontext">
+    <div>
+        <label for="json1">
+            JSON Online
+        </label>
+        <textarea id="json1" class="json-input">
+        </textarea>
+        <span id="json1errormessage" class="jsonerrormessage"></span>
+    </div>
+    <div>
+        <label for="json2">
+            JSON Offline
+        </label>
+        <textarea id="json2" class="json-input">
+        </textarea>
+        <span id="json2errormessage" class="jsonerrormessage"></span>
+    </div>
+</div>
+<div class="buttons">
+    <input id="live" type="checkbox" checked="checked">
+    <label for="live">
+        autoDiff
+    </label>
+    <input id="compare" type="button" value="Compare"><input id="swap" type="button" value="Swap">        </div>
+<div class="results">
+    <table>
+        <thead>
+        <tr>
+            <th>
+                <h2>Debug(失败原因)</h2>
+            </th>
+            <th>
+                <h2>Diff Detail(返回值对比详情)</h2>
+                <div class="header-options">
+                    <input id="showunchanged" type="checkbox">
+                    <label for="showunchanged">
+                        Show all values
+                    </label>
+                </div>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="jsondiff">
+			<pre id="jsondiff">
+			</pre>
+            </td>
+            <td class="visualdiff">
+                <p class="visualdiff" id="visualdiff">
+                </p>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript">
+
+    jsondiffpatch.config.objectHash = function(obj) {
+        return obj._id || obj.id || obj.name || JSON.stringify(obj);
+    };
+    var urlpath = window.location.host;
+    var params = window.location.search;
+    var dataonline;
+    var dataoffline;
+    var debugdata;
+    $.ajax({
+        type : "get",
+        url : "http://"+urlpath+"/getData"+params+"&status=online",
+        data : {},
+        async : false,
+        success : function(data){
+            dataonline = data;
+        }
+    });
+    $.ajax({
+        type : "get",
+        url : "http://"+urlpath+"/getData"+params+"&status=offline",
+        data : {},
+        async : false,
+        success : function(data){
+            dataoffline = data;
+        }
+    });
+
+    $('#json1').val(JSON.stringify(dataonline));
+
+
+    $('#json2').val(JSON.stringify(dataoffline));
+
+    var parseJson = function(id){
+        $('#json' + id).removeClass('json-error');
+        $('#json' + id + 'errormessage').text('');
+        try {
+            var txt = $.trim($('#json' + id).val());
+            if (txt.slice(0,1) !== '{' && txt.slice(0,1) !== '[') {
+                return txt;
+            }
+            else {
+                return JSON.parse(txt);
+            }
+        }
+        catch (err) {
+            $('#json' + id).addClass('json-error');
+            $('#json' + id + 'errormessage').text(err + '');
+        }
+    };
+
+    $(function(){
+
+        $('#swap').click(function(){
+            var t = $('#json1').val();
+            $('#json1').val($('#json2').val());
+            $('#json2').val(t);
+            compare();
+        });
+
+        $('#clear').click(function(){
+            $('#json1').val('');
+            $('#json2').val('');
+        });
+        $.ajax({
+            type : "get",
+            url : "http://"+urlpath+"/getDebugInfo"+params,
+            data : {},
+            async : false,
+            success : function(data){
+                debugdata = data;
+            }
+        });
+        $('#showunchanged').change(function(){
+            $('.jsondiffpatch-unchanged')[this.checked ? 'slideDown' : 'slideUp']();
+        });
+
+        var compare = function(){
+
+            var json1 = parseJson(1), json2 = parseJson(2);
+
+            if (typeof json1 == 'undefined' || typeof json2 == 'undefined') {
+                $('.results').hide();
+                return;
+            }
+
+            var d = jsondiffpatch.diff(json1, json2);
+
+            if (typeof d == 'undefined') {
+                $('#jsondiff').val('');
+                $('#visualdiff').empty().text('no diff');
+                $('.jsondiff').hide();
+            }
+            else {
+                $('#jsondiff').text(JSON.stringify(debugdata, null, 2));
+                $('#visualdiff').empty().append(jsondiffpatch.html.diffToHtml(json1, json2, d));
+                $('.jsondiff').show();
+            }
+            $('.jsondiffpatch-unchanged')[$('#showunchanged').get(0).checked ? 'show' : 'hide']();
+
+            $('.results').show();
+        };
+
+        $('#compare').click(compare);
+
+        $('.json-input').change(function(){
+            if ($('#live').attr('checked')) {
+                compare();
+            }
+        }).keyup(function(){
+            if ($('#live').attr('checked')) {
+                compare();
+            }
+        });
+
+        $('#live').change(function(){
+            if (this.checked) {
+                compare();
+            }
+            $('#compare').attr('disabled', this.checked ? 'disabled' : null);
+        });
+        $('#compare').attr('disabled', $('#live').get(0).checked ? 'disabled' : null);
+        $('#live').get(0).checked
+        $('.results').hide();
+        if ($('#live').get(0).checked) {
+            var json = parseJson(1);
+            $('#json1').val(typeof json == 'string' ? json : JSON.stringify(json, null, 2));
+            var json = parseJson(2);
+            $('#json2').val(typeof json == 'string' ? json : JSON.stringify(json, null, 2));
+            compare();
+
+        }
+    });
+</script>
+</body>
+</html>

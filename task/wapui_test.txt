@@ -1,0 +1,2 @@
+iPadWeb登录	iPadWeb	all	ipad_android_login
+智能版登录	wap	all	smart_android_login

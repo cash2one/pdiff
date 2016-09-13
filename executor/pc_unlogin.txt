@@ -1,0 +1,13 @@
+[Method]
+GET
+
+[User-Agent]
+
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)
+
+[Referer]
+tieba.baidu.com
+
+[Cookie]
+BAIDUID=8EA5F6A8E4E1FBC1D6486DD4AB445553:FG=1
+BAIDU_WISE_UID=wapp_1359368644534_705

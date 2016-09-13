@@ -1,0 +1,1 @@
+客户端核心UI登录	client	all	client_login

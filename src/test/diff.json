@@ -1,0 +1,19 @@
+{
+    "_remove": {
+        "b": 2
+    }, 
+    "_update": {
+        "a": 2, 
+        "children": {
+            "_update": {
+                "son": "Ivánek"
+            }, 
+            "_append": {
+                "daughter": "Maruška"
+            }
+        }
+    }, 
+    "_append": {
+        "c": 3
+    }
+}

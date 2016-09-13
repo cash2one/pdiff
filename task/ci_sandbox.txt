@@ -1,0 +1,4 @@
+PC核心UI登录	pc	p1	pc_login
+客户端核心UI登录	client	p1	client_login
+iPadWeb登录	iPadWeb	p1	ipad_android_login
+service	service	p1	pc_login
