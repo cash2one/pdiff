@@ -1,0 +1,17 @@
+perm_service_ForumIdExist	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getForumMemberInfo&forum_id=35&format=json		[]	p1
+perm_service_ForumIdNotExist	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getForumMemberInfo&forum_id=-327&format=json		[]	p1
+perm_service_ForumIdNotSet	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getForumMemberInfo&forum_id=&format=json		[]	p1
+perm_service_UserHasLikeForums	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getLikeForumList&user_id=1496&format=json		[member_count]	p1
+perm_service_UidInvalid	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getLikeForumList&user_id=-327&format=json		[]	p1
+perm_service_UidNotSet	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getLikeForumList&user_id=&format=json		[]	p1
+perm_service_UserHasLikeForums	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getLikeForumListIndex&user_id=1496&format=json		[member_count]	p1
+perm_service_UidInvalid	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getLikeForumListIndex&user_id=-327&format=json		[]	p1
+perm_service_UidNotSet	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getLikeForumListIndex&user_id=&format=json		[]	p1
+perm_service_ForumIdExist	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getBawuList&forum_id=35&format=json		[]	p1
+perm_service_ForumIdNotExist	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getBawuList&forum_id=-327&format=json		[]	p1
+perm_service_ForumIdNotSet	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getBawuList&forum_id=&format=json		[]	p1
+perm_service_GetUserGradeInfo	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getPerm&forum_id=35&user_id=440084&user_ip=1&format=json		[]	p1
+perm_service_ForumBlockTypeOne	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=getPerm&forum_id=1&user_id=&user_ip=0&format=json		[]	p1
+perm_service_ForumIdExist	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=mgetForumMemberInfo&forum_ids[]=35&forum_ids[]=404&format=json		[]	p1
+perm_service_ForumIdNotExist	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=mgetForumMemberInfo&forum_ids[]=-327&format=json		[]	p1
+perm_service_ForumIdNotSet	liumanna	GET	http://service.tieba.baidu.com/service/perm?ie=utf-8&method=mgetForumMemberInfo&forum_ids[]=&format=json		[]	p1

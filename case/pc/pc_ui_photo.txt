@@ -1,0 +1,5 @@
+pc_ui_图册frs页	mahong	GET	http://tieba.baidu.com/photo/bw/photo/flist?kw=%B7%E7%BE%B0&col0=23923&col1=23754&col2=23871&col3=23941&alt=jview&bs=361&be=720&an=30&is_star=0&_=1364275045492		[click_amount,click_num,]	env_issue
+pc_ui_图片pb页缩略图	mahong	GET	http://tieba.baidu.com/photo/bw/picture/guide?kw=test&tid=1931734638&see_lz=1&alt=jview&next=15&prev=15&pic_id=d31f3a292df5e0fe186c49f15c6034a85fdf72ce		[click_amount,click_num,]	env_issue
+pc_ui_新图册精选分类	mahong	GET	http://tieba.baidu.com/photo/g?kw=test&alt=jview&pn=2&rn=30&cat_id=4d061d950a7b02087bf40ad162d9f2d3572cc8c4		[click_amount,click_num,]	env_issue
+pc_ui_精选图册列表页	mahong	GET	http://tieba.baidu.com/photo/g/bw/picture/list?kw=test&alt=jview&rn=200&tid=2174978627&pn=1&ps=1&pe=40		[click_amount,click_num,]	p1
+pc_ui_精选图册分类信息	yangling02	GET	http://tieba.baidu.com/photo/g/bw/class/list?kw=test		[click_amount,click_num,]	p1

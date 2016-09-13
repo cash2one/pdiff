@@ -1,0 +1,2 @@
+pc_ui_index_html	yangling02	GET	http://tieba.baidu.com/index.html		[carousel_data,xiu8_live_list,tbgame,tb_live_list,rcmd_forum,PC_INDEX_LEFT,aside_data,adsense,forum_rcmd]	p1
+pc_ui_index_class_all	yangling02	GET	http://tieba.baidu.com/f/index/forumclass		[carousel_data,xiu8_live_list,tbgame,tb_live_list,rcmd_forum,PC_INDEX_LEFT,aside_data,forum_rcmd]	p1

@@ -1,0 +1,14 @@
+﻿bawu_service_getUserData(通过吧名获取吧务信息)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getUserData&forum_id=59099&date=0&user_id=354724978&pn=1&size=6&format=json		[]	p0
+bawu_service_getDelpostInfo(通过吧名获取删帖列表)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getDelpostInfo&forum_id=366368&del_type=0&begin_time=1423447810&end_time=1425867010&format=json		[]	p0
+bawu_service_getDelpostInfo(通过吧名获取删帖列表)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getDelpostInfo&forum_id=27829&del_type=1&begin_time=1423447810&end_time=1425867010&format=json		[]	p0
+bawu_service_getDelpostInfo(通过吧名获取删帖列表)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getDelpostInfo&forum_id=13172336&del_type=0&search_type=op_uname&search_value=villian_j&begin_time=1191340800&end_time=1444924799&format=json&ie=utf-8		[]	p0
+bawu_service_getDelpostInfo(通过吧名获取删帖列表)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getDelpostInfo&forum_id=13172336&del_type=0&search_type=op_uname&search_value=%E8%83%96%E5%A6%9Eya%E8%83%96%E5%A6%9E&format=json&ie=utf-8		[]	p0
+bawu_service_getDelpostInfo(通过吧名获取删帖列表)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getDelpostInfo&forum_id=13172336&del_type=0&search_type=post_uname&search_value=t%E5%B0%8F%E7%A7%80%E7%A7%802&format=json&ie=utf-8		[]	p0
+bawu_service_getPostAppealList(获取帖子申诉列表)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getPostAppealList&forum_id=59099&op_status=1&format=json&ie=utf-8		[]	p0
+bawu_service_getPostAppealList(获取帖子申诉列表)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getPostAppealList&forum_id=59099&op_status[]=2&op_status[]=3&user_id=980407851&format=json&ie=utf-8		[]	p0
+bawu_service_getForumData(进入吧务后台获取吧信息)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getForumData&forum_id=13172336&format=json&ie=utf-8		[]	p0
+bawu_service_getForumData(进入吧务后台获取吧信息)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getForumData&forum_id=13172336&days=50&format=json&ie=utf-8		[]	p0
+bawu_service_getBawuAppeaList(获取用户申诉列表)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getBawuAppealList&forum_id=59099&user_id=673737764&page=1&pagesize=15&format=json&ie=utf-8		[]	p0
+bawu_service_getBawuAppeaList(获取用户申诉列表)_正常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getBawuAppealList&forum_id=59099&page=10&pagesize=1&format=json&ie=utf-8		[]	p0
+bawu_service_getBawuAppeaList(获取用户申诉列表)_异常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getBawuAppealList&forum_id=59099&page=100&pagesize=15&format=json&ie=utf-8		[]	p0
+bawu_service_getBawuAppeaList(获取用户申诉列表)_异常	jialin	GET	http://service.tieba.baidu.com/service/bawu?method=getBawuAppealList&forum_id=59099&page=1&pagesize=15&orderby=punish_start_time&order=desc&format=json&ie=utf-8		[]	p0

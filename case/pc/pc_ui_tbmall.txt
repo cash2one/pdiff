@@ -1,0 +1,14 @@
+pc_ui_tbmall_会员首页	jiaolianxin	GET	http://tieba.baidu.com/tbmall/tshow?tab=main		[user_ip]	p2
+pc_ui_tbmall_会员特权	jiaolianxin	GET	http://tieba.baidu.com/tbmall/tshow?tab=privil		[user_ip]	p2
+pc_ui_tbmall_特权详情	jiaolianxin	GET	http://tieba.baidu.com/tbmall/tshow?tab=detail		[user_ip]	p2
+pc_ui_tbmall_会员活动专区	jiaolianxin	GET	http://tieba.baidu.com/tbmall/tshow?tab=activity		[user_ip]	p2
+pc_ui_tbmall_home	yangling02	GET	http://tieba.baidu.com/tbmall/home		[user_ip,buy_count]	p1
+pc_ui_tbmall_nameplates	yangling02	GET	http://tieba.baidu.com/tbmall/propslist?category=112&ps=24		[user_ip,nameplate]	p1
+pc_ui_tbmall_dynamic_picture	yangling02	GET	http://tieba.baidu.com/tbmall/propslist?category=109		[user_ip]	p1
+pc_ui_tbmall_border	yangling02	GET	http://tieba.baidu.com/tbmall/propslist?category=110		[user_ip]	p1
+pc_ui_tbmall_backgroud	yangling02	GET	http://tieba.baidu.com/tbmall/propslist?category=113		[user_ip]	p1
+pc_ui_tbmall_pop	yangling02	GET	http://tieba.baidu.com/tbmall/propslist?category=101		[user_ip]	p1
+pc_ui_tbmall_watermark	yangling02	GET	http://tieba.baidu.com/tbmall/propslist?category=103		[user_ip]	p1
+pc_ui_tbmall_colorfont	yangling02	GET	http://tieba.baidu.com/tbmall/propslist?category=104		[user_ip]	p1
+pc_ui_tbmall_magicegg	yangling02	GET	http://tieba.baidu.com/tbmall/propslist?category=107		[user_ip]	p1
+pc_ui_tbmall_resgin	yangling02	GET	http://tieba.baidu.com/tbmall/propslist?category=108		[user_ip]	p1

@@ -1,0 +1,7 @@
+﻿activityhead_service_getActHead(获取活动头图—头图推荐)_正常	sunyushuang	GET	http://service.tieba.baidu.com/service/activityhead?method=getActHead&head_id=10&format=json		[]	P1
+activityhead_service_getActHead(获取活动头图—倒计时模板)_正常	sunyushuang	GET	http://service.tieba.baidu.com/service/activityhead?method=getActHead&head_id=11&format=json		[]	P1
+activityhead_service_getActHead(获取活动头图—投票)_正常	sunyushuang	GET	http://service.tieba.baidu.com/service/activityhead?method=getActHead&head_id=12&format=json		[]	P1
+activityhead_service_getActHead(获取活动头图—活动码抽奖)_正常	sunyushuang	GET	http://service.tieba.baidu.com/service/activityhead?method=getActHead&head_id=13&format=json		[]	P1
+activityhead_service_getActHead(获取活动头图)_异常(Head_idNotSet)	sunyushuang	GET	http://service.tieba.baidu.com/service/activityhead?method=getActHead&head_id=&format=json		[]	p3
+activityhead_service_getActHead(获取活动头图)_异常(head_idNotExist)	sunyushuang	GET	http://service.tieba.baidu.com/service/activityhead?method=getActHead&head_id=1111&format=json		[]	p3
+activityhead_service_getActHead(获取活动头图)_异常(head_idInvalid)	sunyushuang	GET	http://service.tieba.baidu.com/service/activityhead?method=getActHead&head_id=a&format=json		[]	p3

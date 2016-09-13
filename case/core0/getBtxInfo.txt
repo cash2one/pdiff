@@ -1,0 +1,5 @@
+core0_forum_service_getBtxInfo_fidNotSet	yangling02	GET	http://service.tieba.baidu.com/service/forum?method=getBtxInfo&forum_id=&format=json		[]	p1
+core0_forum_service_getBtxInfo_getBtxInfo_fidZero	yangling02	GET	http://service.tieba.baidu.com/service/forum?method=getBtxInfo&forum_id=0&format=json		[]	p1
+core0_forum_service_getBtxInfo_getBtxInfo_59099	yangling02	GET	http://service.tieba.baidu.com/service/forum?method=getBtxInfo&forum_id=59099&format=json		[]	p1
+core0_forum_service_getBtxInfo_getBtxInfo_35	yangling02	GET	http://service.tieba.baidu.com/service/forum?method=getBtxInfo&forum_id=35&format=json		[]	p1
+core0_forum_service_getBtxInfo_getBtxInfo_366368	yangling02	GET	http://service.tieba.baidu.com/service/forum?method=getBtxInfo&forum_id=366368&format=json		[]	p1

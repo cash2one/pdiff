@@ -1,0 +1,12 @@
+core0_client_ui_frs_ios6.8.0	yeaifeng01	POST	http://c.tieba.baidu.com/c/f/frs/page	sign=123456tbclient654321&kw=test&rn=50&is_good=0&format=json&_client_version=6.8.0&_client_type=1	[ALL_VALUE]	p1
+core0_client_ui_frs_ios6.8.5	yeaifeng01	POST	http://c.tieba.baidu.com/c/f/frs/page	sign=123456tbclient654321&kw=test&rn=50&is_good=0&format=json&_client_version=6.8.5&_client_type=1	[ALL_VALUE]	p1
+core0_client_ui_frs_android6.8.3	yeaifeng01	POST	http://c.tieba.baidu.com/c/f/frs/page	sign=123456tbclient654321&kw=test&rn=50&is_good=0&format=json&_client_version=6.8.3&_client_type=2	[ALL_VALUE]	p1
+core0_client_ui_frs_android6.7.2	yeaifeng01	POST	http://c.tieba.baidu.com/c/f/frs/page	sign=123456tbclient654321&kw=test&rn=50&is_good=0&format=json&_client_version=6.7.2&_client_type=2	[ALL_VALUE]	p1
+core0_client_ui_IOS6.8.5通过Pid查询楼中楼	yeaieng01	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&pid=59182983372&kz=3363465020&_client_type=1&_client_version=6.8.5&pn=1	[ALL_VALUE]	p1
+core0_client_ui_IOS6.8.5客户端通过Spid查找楼中楼	yeaifeng01	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&spid=59222728875&kz=3363465020&_client_type=1&_client_version=6.8.5	[ALL_VALUE]	p1
+core0_client_ui_android6.8.3通过Pid查找楼中楼	yeaifeng01	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&pid=59182983372&kz=3363465020&_client_type=2&_client_version=6.8.3&pn=1	[ALL_VALUE]	p1
+core0_client_ui_android6.8.3通过Spid查找楼中楼	yeaifeng01	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&spid=59222728875&kz=3363465020&_client_type=2&_client_version=6.8.3	[ALL_VALUE]	p1
+core0_client_ui_pb_ios6.8.5	yeaifeng01	POST	http://c.tieba.baidu.com/c/f/pb/page	kz=2012548862&_client_type=1&_client_version=6.8.5&sign=123456tbclient654321&pn=1	[ALL_VALUE]	p1
+core0_client_ui_pb_ios6.8.0	yeaifeng01	POST	http://c.tieba.baidu.com/c/f/pb/page	kz=2012548862&_client_type=1&_client_version=6.8.0&sign=123456tbclient654321&pn=2	[ALL_VALUE]	p1
+core0_client_ui_pb_android6.8.3	yeaifeng01	POST	http://c.tieba.baidu.com/c/f/pb/page	kz=2012548862&_client_type=2&_client_version=6.8.3&sign=123456tbclient654321&pn=1	[ALL_VALUE]	p1
+core0_client_ui_pb_android6.7.2	yeaifeng01	POST	http://c.tieba.baidu.com/c/f/pb/page	kz=2012548862&_client_type=2&_client_version=6.7.2&sign=123456tbclient654321&pn=2	[ALL_VALUE]	p1

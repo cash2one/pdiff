@@ -1,0 +1,9 @@
+game_service_getHistoryGameList	liyueming	GET	http://service.tieba.baidu.com/service/game?method=getHistoryGameList&user_id=911435764&format=json		[]	p1
+game_service_getHistoryGameList(uid=null)	liyueming	GET	http://service.tieba.baidu.com/service/game?method=getHistoryGameList&user_id=&format=json		[]	p1
+game_service_getGameHotRank	liyueming	GET	http://service.tieba.baidu.com/service/game?method=getGameHotRank&format=json		[]	p1
+game_service_getHotRankConf	liyueming	GET	http://service.tieba.baidu.com/service/game?method=getHotRankConf&format=json		[]	p1
+game_service_getHotRankGameConf	liyueming	GET	http://service.tieba.baidu.com/service/game?method=getHotRankGameConf&pn=1&rn=2&format=json		[]	p1
+game_service_getHotRankGameConf(pn&rn=null)	liyueming	GET	http://service.tieba.baidu.com/service/game?method=getHotRankGameConf&pn=&rn=&format=json		[]	p1
+game_service_getHotRankGameConfByName	liyueming	GET	http://service.tieba.baidu.com/service/game?method=getHotRankGameConfByName&name=%E5%A4%A7%E5%A4%A9%E4%BD%BF%E4%B9%8B%E5%89%91&format=json		[]	p1
+game_service_getHotRankGameConfByName(name=null)	liyueming	GET	http://service.tieba.baidu.com/service/game?method=getHotRankGameConfByName&name=&format=json		[]	p1
+game_service_getHotRankGameConfByName(name not exit)	liyueming	GET	http://service.tieba.baidu.com/service/game?method=getHotRankGameConfByName&name=%E6%B5%8B%E8%AF%95&format=json		[]	p1

@@ -1,0 +1,2 @@
+智能版I贴吧首页	liuyang04	GET	http://tieba.baidu.com/mo/q-----2-3-0--2/i?un=liuyang_hust		[baidu_id,uid,cip,new_cuid,current_clock,tbs,]	p1
+智能版I贴吧I贴页	liuyang04	GET	http://tieba.baidu.com/mo/q-----2-3-0--2/i?un=liuyang_hust&it=3		[baidu_id,uid,cip,new_cuid,]	p1

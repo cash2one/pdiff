@@ -1,0 +1,7 @@
+client_ui_sug_wow_ios_5.5.3	yangling02	POST	http://c.tieba.baidu.com/c/f/forum/sug	m_result=-4&q=wow&_client_version=99.9.9&_client_type=1	[logid,post_list]	p1
+client_ui_sug_wow_ios_5.0.1	yangling02	POST	http://c.tieba.baidu.com/c/f/forum/sug	m_result=-4&q=wow&_client_version=99.9.9&_client_type=1	[logid,post_list]	p1
+client_ui_sug_wow_ios_4.9.0	yangling02	POST	http://c.tieba.baidu.com/c/f/forum/sug	m_result=-4&q=wow&_client_version=99.9.9&_client_type=1	[logid,post_list]	p1
+client_ui_sug_wow_android_5.5.3	yangling02	POST	http://c.tieba.baidu.com/c/f/forum/sug	m_result=-4&q=wow&_client_version=99.9.9&_client_type=2	[logid,post_list]	p1
+client_ui_sug_wow_android_4.9.0	yangling02	POST	http://c.tieba.baidu.com/c/f/forum/sug	m_result=-4&q=wow&_client_version=99.9.9&_client_type=2	[logid,post_list]	p1
+client_ui_sug_wow_android_3.5.0	yangling02	POST	http://c.tieba.baidu.com/c/f/forum/sug	m_result=-4&q=wow&_client_version=99.9.9&_client_type=2	[logid,post_list]	p1
+client_ui_sug_chinese_ios_5.5.3	yangling02	POST	http://c.tieba.baidu.com/c/f/forum/sug	m_result=-4&q=星星&_client_version=99.9.9&_client_type=1	[logid,post_list]	p1

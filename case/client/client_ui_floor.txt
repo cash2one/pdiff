@@ -1,0 +1,8 @@
+client_ui_IOS通过Pid查询楼中楼	hanlingzhi	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&pid=59182983372&kz=3363465020&_client_type=1&_client_version=6.3.0&pn=1	[logid]	p1
+client_ui_IOS通过Pid查询楼中楼_翻页	hanlingzhi	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&pid=59182983372&kz=3363465020&_client_type=1&_client_version=6.3.0&pn=2	[logid]	p1
+client_ui_IOS客户端通过Spid查找楼中楼	hanlingzhi	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&spid=59222728875&kz=3363465020&_client_type=1&_client_version=6.3.0	[logid]	p1
+client_ui_IOS客户端通过Spid查找楼中楼(非首页)	hanlingzhi	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&spid=59236636018&kz=3363465020&_client_type=1&_client_version=6.3.0	[logid]	p1
+client_ui_安卓客户端通过Pid查找楼中楼	hanlingzhi	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&pid=59182983372&kz=3363465020&_client_type=2&_client_version=6.3.0&pn=1	[logid]	p1
+client_ui_安卓客户端通过Pid查找楼中楼(翻页)	hanlingzhi	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&pid=59182983372&kz=3363465020&_client_type=2&_client_version=6.3.0&pn=2	[logid]	p1
+client_ui_安卓客户端通过Spid查找楼中楼	hanlingzhi	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&spid=59222728875&kz=3363465020&_client_type=2&_client_version=6.3.0	[logid]	p1
+client_ui_安卓客户端通过Spid查找楼中楼(非首页)	hanlingzhi	POST	http://c.tieba.baidu.com/c/f/pb/floor	sign=123456tbclient654321&spid=59236636018&kz=3363465020&_client_type=2&_client_version=6.3.0	[logid]	p1

@@ -1,0 +1,2 @@
+client_ui_finefrspage_ios	wangxuebing01	POST	http://c.tieba.baidu.com/c/f/choiceness/finefrspage	scr_h=960&rn_need=30&m_size_d=471&scr_w=640&sign=123456tbclient654321&q_type=100&net_type=3&_client_type=1&_client_version=99.9.9	[logid,server_time,ctime,zansum,threadsnum]	p1
+client_ui_finefrspage_android	wangxuebing01	POST	http://c.tieba.baidu.com/c/f/choiceness/finefrspage	scr_h=960&rn_need=30&m_size_d=471&scr_w=640&sign=123456tbclient654321&q_type=100&net_type=3&_client_type=2&_client_version=99.9.9	[logid,server_time,ctime,zansum,threadsnum]	p1

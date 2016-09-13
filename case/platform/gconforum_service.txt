@@ -1,0 +1,4 @@
+﻿gconforum_service_getForumMatList(获取吧消息列表)	bijianxin	GET	http://service.tieba.baidu.com/service/gconforum?method=getForumMatList&forum_id=2488131&ie=utf8&format=json		[]	p5
+gconforum_service_getForumMatList(获取吧消息列表)_异常(forum_idSetNull)	bijianxin	GET	http://service.tieba.baidu.com/service/gconforum?method=getForumMatList&ie=utf8&format=json		[]	p5
+gconforum_service_getForumMenu(获得平台化吧菜单)_正常	bijianxin	GET	http://service.tieba.baidu.com/service/gconforum?method=getForumMenu&forum_id=2488131&ie=utf8&format=json		[]	p5
+gconforum_service_getForumMenu(获得平台化吧菜单)_异常(forum_idSetNull)	bijianxin	GET	http://service.tieba.baidu.com/service/gconforum?method=getForumMenu&ie=utf8&format=json		[]	p5

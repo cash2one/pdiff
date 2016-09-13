@@ -1,0 +1,2 @@
+getHistoryGameList	liyueming	GET	http://service.tieba.baidu.com/service/game?method=getHistoryGameList&user_id=911435764&format=json		[]	p1
+获取活动头图—头图推荐_正常	sunyushuang	GET	http://service.tieba.baidu.com/service/activityhead?method=getActHead&head_id=10&format=json		[]	P1

@@ -1,0 +1,7 @@
+﻿official_service_getOfficialStyle(通过吧id获取官方吧的样式信息)_正常	cuixiaojia	GET	http://service.tieba.baidu.com/service/official?method=getOfficialStyle&forum_id=366368&format=json		[]	p0
+official_service_getOfficialStyle(通过吧id获取官方吧的样式信息)_异常	cuixiaojia	GET	http://service.tieba.baidu.com/service/official?method=getOfficialStyle&forum_id=1427471&format=json		[]	p3
+official_service_getOfficialList(根据不同的值获取官方吧列表信息)	cuixiaojia	GET	http://service.tieba.baidu.com/service/official?method=getOfficialList&format=json		[]	p4
+official_service_getOfficialForumList(获取官方吧列表)	cuixiaojia	GET	http://service.tieba.baidu.com/service/official?method=getOfficialForumList&offset=0&limit=10&format=json		[]	p4
+official_service_getOfficialInfo(通过吧id获取官方吧的基础信息)	cuixiaojia	GET	http://service.tieba.baidu.com/service/official?method=getOfficialInfo&forum_id=366368&format=json		[]	p4
+official_service_getAuditList(获取审核的物料列表)	cuixiaojia	GET	http://service.tieba.baidu.com/service/official?method=getAuditList&format=json		[]	p4
+official_service_getForumMenu(获取吧菜单)	cuixiaojia	GET	http://service.tieba.baidu.com/service/official?method=getForumMenu&forum_id=2488131&format=json		[]	p4

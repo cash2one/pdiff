@@ -1,0 +1,5 @@
+智能版PB页	liuyang04	GET	http://tieba.baidu.com/mo/q-----2-3-0--2/mo?kz=2343371430		[is_voice_open,is_voice_client_ad,baidu_id,uid,cip,new_cuid,current_clock,tbs,tshow_icon]	p1
+智能版楼中楼接口	pengfei	GET	http://tieba.baidu.com/mo/q-----2-3-0--2/flr?kz=1557259199&pid=19220216277&fpn=1&is_ajax=1&has_url_param=1		[is_voice_open,is_voice_client_ad,baidu_id,uid,cip,new_cuid,current_clock,tbs,tshow_icon]	p1
+智能版pb翻页	pengfei	GET	http://tieba.baidu.com/mo/q-----2-3-0--2/m?kz=2445144830&lp=6052&pn=30&has_url_param=1&is_ajax=1&post_type=normal&_t=1366097329390&see_lz=0		[is_voice_open,is_voice_client_ad,baidu_id,uid,cip,new_cuid,current_clock,tbs,tshow_icon]	p1
+智能版只看楼主	pengfei	GET	http://tieba.baidu.com/mo/q-----2-3-0--2/mo?kz=2343371430&see_lz=1		[is_voice_open,is_voice_client_ad,baidu_id,uid,cip,new_cuid,current_clock,tbs,tshow_icon]	p1
+智能版瀑布流	pengfei	GET	http://tieba.baidu.com/mo/q-----2-3-0--2/album?word=hank_m&tid=1970725237&img_width=675&img_height=2000&img_quality=100&template=slide_image&title=mytitle&album_from=water_fal		[is_voice_open,is_voice_client_ad,baidu_id,uid,cip,new_cuid,current_clock,tbs,tshow_icon]	p1

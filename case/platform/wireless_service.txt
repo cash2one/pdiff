@@ -1,0 +1,1 @@
+﻿forum_service_getForumAttr(frs福袋service)	cuixiaojia	GET	http://service.tieba.baidu.com/service/forum?method=getForumAttr&forum_id=366368&format=json		[]	P1

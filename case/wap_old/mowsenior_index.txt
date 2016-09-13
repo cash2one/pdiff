@@ -1,0 +1,2 @@
+智能版Suggestion，请求词mp3	liuyang04	GET	http://tieba.baidu.com/mo/q-----2-3-0--2/sug?query=mp3&is_ajax=1		[baidu_id,uid,cip,new_cuid,current_clock,tbs,]	p1
+智能版搜贴	pengfei	GET	http://tieba.baidu.com/mo/q/seekcomposite?word=101%E5%85%AC%E4%BA%A4&page_from_search=search_all&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lp=6092&lm=16842752&sub7=%E6%90%9C%E7%B4%A2		[ALL_VALUE]	p1

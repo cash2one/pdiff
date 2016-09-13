@@ -1,0 +1,3 @@
+core0_UI_普通吧pb页	jiaolianxin	GET	http://tieba.baidu.com/p/8077240?format=json		[ALL_VALUE]	p0
+core0_UI_Ta的个人中心	jiaolianxin	GET	http://tieba.baidu.com/home/main?un=%E5%B0%8F%E6%B3%A2%E6%B3%A2&ie=utf-8&fr=frs&format=json		[ALL_VALUE]	p0
+core0_search_ui_search搜吧第一页	mahong	GET	http://tieba.baidu.com/f/search/fm?ie=utf-8&qw=%E7%BE%8E%E5%A5%B3		[ALL_VALUE]	p1

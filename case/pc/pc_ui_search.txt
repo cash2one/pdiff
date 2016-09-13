@@ -1,0 +1,8 @@
+pc_ui_search搜吧第一页	mahong	GET	http://tieba.baidu.com/f/search/fm?ie=utf-8&qw=%E7%BE%8E%E5%A5%B3		[ALL_VALUE]	env_issue
+pc_ui_search搜吧中间页	mahong	GET	http://tieba.baidu.com/f/search/fm?kw=&qw=%C3%C0%C5%AE&rn=10&pn=7		[ALL_VALUE]	env_issue
+pc_ui_search搜吧标签第一页	mahong	GET	http://tieba.baidu.com/f/search/fm?ie=utf-8&tag=%E7%BE%8E%E5%A5%B3		[ALL_VALUE]	p1
+pc_ui_search搜吧标签中间页	mahong	GET	http://tieba.baidu.com/f/search/fm?kw=&tag=%C3%C0%C5%AE&rn=10&pn=6		[ALL_VALUE]	p1
+pc_ui_search吧内搜索第一页	mahong	GET	http://tieba.baidu.com/f/search/res?ie=utf-8&kw=%E7%BE%8E%E5%A5%B3&qw=%E7%BE%8E%E5%A5%B3		[ALL_VALUE]	p1
+pc_ui_search吧内搜索中间页	mahong	GET	http://tieba.baidu.com/f/search/res?isnew=1&kw=%C3%C0%C5%AE&qw=%C3%C0%C5%AE&rn=10&un=&sm=1&sd=&ed=&pn=7		[ALL_VALUE]	p1
+pc_ui_search搜贴第一页	 mahon	GET	http://tieba.baidu.com/f/search/res?isnew=1&qw=%C3%C0%C5%AE&rn=10&sm=1&pn=1		[ALL_VALUE]	p1
+pc_ui_search搜贴中间页	mahong	GET	http://tieba.baidu.com/f/search/res?isnew=1&qw=%C3%C0%C5%AE&rn=10&sm=1&pn=1		[ALL_VALUE]	p1

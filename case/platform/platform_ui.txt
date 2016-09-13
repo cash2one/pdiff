@@ -1,0 +1,1 @@
+﻿platform_ui_pullMsg(获取更新的消息列表)	cuixiaojia	GET	http://tieba.baidu.com/platform/data/pullMsg?kw=testtest&forum_id=271650&ie=utf-8&tbs=c38643123435ef261415858441		[]	p4

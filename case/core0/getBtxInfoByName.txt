@@ -1,0 +1,5 @@
+core0_forum_service_getBtxInfo_getBtxInfoByName_fnameNotSet	yangling02	GET	http://service.tieba.baidu.com/service/forum?method=getBtxInfoByName&forum_name=&format=json		[query_type_id]	p1
+core0_forum_service_getBtxInfo_getBtxInfoByName_liyi	yangling02	GET	http://service.tieba.baidu.com/service/forum?method=getBtxInfoByName&forum_name=liyi&format=json		[query_type_id]	p1
+core0_forum_service_getBtxInfo_getBtxInfoByName_wow	yangling02	GET	http://service.tieba.baidu.com/service/forum?method=getBtxInfoByName&forum_name=wow&format=json		[query_type_id,yylivead_p1,frs_banner]	p1
+core0_forum_service_getBtxInfo_getBtxInfoByName_xiaomi	yangling02	GET	http://service.tieba.baidu.com/service/forum?method=getBtxInfoByName&forum_name=xiaomi&format=json		[query_type_id,frs_banner]	p1
+core0_forum_service_getBtxInfo_getBtxInfoByName_chinese	yangling02	GET	http://service.tieba.baidu.com/service/forum?method=getBtxInfoByName&forum_name=%E6%9D%8E%E6%AF%85&format=json		[query_type_id,frs_banner]	p1

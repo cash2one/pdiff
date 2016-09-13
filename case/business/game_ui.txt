@@ -1,0 +1,6 @@
+game_ui_picture	yeaifeng01	GET	http://tieba.baidu.com/game/picture?ie=utf-8&format=json		[intUip]	p1
+game_ui_coverIndex	yeaifeng01	GET	http://tieba.baidu.com/game/browse/coverIndex?game_id=412&format=json		[intUip]	p1
+game_ui_gameserver	yeaifeng01	GET	http://tieba.baidu.com/game/browse/gameServer?game_id=412&format=json		[intUip]	p1
+game_ui_gameindex	yeaifeng01	GET	http://tieba.baidu.com/game/index?tab=game_medal&format=json		[intUip]	p1
+game_ui_markConf	yeaifeng01	GET	http://tieba.baidu.com/game/markConf?id=412&format=json		[intUip]	p1
+game_ui_getHistoryGameList	yeaifeng01	GET	http://tieba.baidu.com/game/getHistoryGameList?format=json		[intUip]	p1
